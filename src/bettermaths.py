@@ -1,3 +1,4 @@
+from email.mime import base
 import math as m
 
 def area2D_circle(radius):
@@ -11,3 +12,7 @@ def area2D_rectangle(width, length):
 
 def area2D_triangle(base, perpendicular_height):
     return 0.5 * base * perpendicular_height
+
+def area2D_trapezoid(top_base, bottom_base, length):
+    base = top_base + bottom_base / 2
+    return base * length

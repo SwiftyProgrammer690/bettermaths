@@ -12,5 +12,8 @@ bm.area2D_rectangle(width, length) example:
 print(bm.area2D_rectangle(3, 4)) -> outputs 12
 
 bm.area2D_triangle(base, perpendicular_height) example:
-i am kinda lazy and don't want to make example for this rnow... see ya in the next commit!
+print(bm.area2D_triangle(10, 30)) -> outputs 150
+
+bm.area2D_trapezoid(top_base, bottom_base, length) example:
+print(bm.area2D_trapezoid(10, 20, 7)) -> outputs 105
 '''
